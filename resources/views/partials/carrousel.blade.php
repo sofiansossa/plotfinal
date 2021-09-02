@@ -1,9 +1,9 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261_960_720.jpg" class="d-block w-100" alt="...">
+        <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg" class="d-block w-100" alt="..."  style="height: 450px ">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
+          <h5 class="text-success "><strong>First slide label </strong></h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </div>
     </div>

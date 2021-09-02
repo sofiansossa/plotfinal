@@ -1,13 +1,13 @@
 @include('layouts.app')
-    <h1 class="text-center p-auto mt-auto"> Contactez-Nous</h1>
+  
 <div class="container pt-5" style="max-width: 500px">
-    @if (Session::has('success'))
+    @if(Session::has('success'))
     <div class="alert alert-success">
         {{Session::get('success')}}
     </div>
-    @endif 
+    @endif
 
-        <form  action="" method="POST" action="{{route('contact.save')}}">
+        <form  action="" method="POST"  action="{{route('contact.save')}}" class="mt-100">
             @csrf 
             <div class="form-groupe">
                 <label> Nom </label>

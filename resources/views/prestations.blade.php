@@ -1,13 +1,19 @@
+
 @include('layouts.app')
-<h1 class="mt-50 text-center" > Prestations </h1>
-
-<div mr-auto>
-    <img src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358__340.jpg" alt="">
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-         Voluptatem quidem sed nisi animi! Vero eum quam deserunt ipsa, voluptas, 
-         magni quas delectus tempora tempore adipisci laboriosam.
-         Doloremque saepe magni perferendis?</p>
-
+<div>
+@include('partials.carrousel')
 </div>
+<h1 class=" text-center" > prestations </h1>
 
+<div  class="clearfix">
+
+    
+<img src="https://cdn.pixabay.com/photo/2018/11/02/10/51/job-3790033_960_720.jpg" alt="" style="width: 350px" class="float-left pr-3">
+  <p >   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Odit, eaque! Saepe, nostrum libero quam ipsum at explicabo facere quisquam,
+assumenda corrupti eos asperiores aut facilis sint repellat suscipit non est.
+  </p>  
+</div>
+<div>
 @include('partials.footer')
+</div>
